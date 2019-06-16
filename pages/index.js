@@ -85,43 +85,6 @@ export default function Page({ sections, etag, meta }) {
           </section>
         );
       })}
-      <section>
-        <header>
-          <h2>Get Started</h2>
-        </header>
-        <div className="content">
-          <p>Get started with Now + Next.js</p>
-          <ul className="actions">
-            <li>
-              <a
-                href="https://zeit.co"
-                target="_blank"
-                className="button primary large"
-              >
-                Get Started
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://zeit.co/blog/serverless-pre-rendering"
-                target="_blank"
-                className="button large"
-              >
-                Learn More
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <div className="copyright">
-        Created by{" "}
-        <a href="https://zeit.co" target="_blank">
-          ZEIT
-        </a>{" "}
-        &mdash; Template Design by:{" "}
-        <a href="https://html5up.net/license">HTML5 UP</a>.
-      </div>
-
       <style jsx global>{`
         #wrapper > section > header:before,
         #wrapper > section > header h1:after, #wrapper > section > header h2:after,
